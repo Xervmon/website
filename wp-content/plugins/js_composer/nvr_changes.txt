@@ -1,0 +1,5 @@
+config/map.php
+config/map_extend.php
+include/classes/core/class-vc-mapper.php
+include/templates/shortcodes/vc_row.php
+include/classes/shortcodes/vc-row.php
