@@ -246,7 +246,7 @@
 #pie_register .fields .input_fields {
 	border-radius: 3px;
 	border: 1px solid #d5d5d5;
-	padding: 2px 5px;
+	/*padding: 2px 5px;*/
 	margin-top: 0px;
 	margin-bottom: 0;
 	width: 60%;
