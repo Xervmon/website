@@ -45,9 +45,9 @@ if(!function_exists("nvr_metaviewport")){
 if(!function_exists("nvr_print_headmiscellaneous")){
 	function nvr_print_headmiscellaneous(){
 	
-		echo "<!--[if lt IE 9]>\n";
-		echo "<script src='".THE_JSURI."html5shiv.js type='text/javascript'></script>\n";
-		echo "<![endif]-->\n";
+		//echo "<!--[if lt IE 9]>\n";
+		//echo "<script src='".THE_JSURI."html5shiv.js type='text/javascript'></script>\n";
+		//echo "<![endif]-->\n";
 
         $nvr_favicon = nvr_get_option( THE_SHORTNAME . '_favicon');
 		

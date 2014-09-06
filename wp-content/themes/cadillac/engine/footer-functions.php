@@ -99,3 +99,10 @@ if(!function_exists("nvr_wp_footer")){
 	}
 	add_action('wp_head', 'nvr_wp_footer', 100);
 }
+
+function redirect_to_function($redirect_to, $request, $user)
+{
+return 'http://www.xervmon.com/thank-you-for-registration/';
+
+}
+add_filter( 'login_redirect', 'redirect_to_function', 10, 3 );
